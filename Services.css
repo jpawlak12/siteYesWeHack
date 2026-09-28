@@ -54,7 +54,7 @@ nav {
     align-items: center;
     justify-content: center;
 }
-
+/*bouton menu*/
 .nav-links {
     display: flex;
     align-items: center;
@@ -72,11 +72,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 40px;
+    width: 180px;
+    height: 60px;
     margin: 10px;
     border: 2px solid #0066FF;
-    border-radius: 10em;
+    border-radius: 0em;
     background-color: #0B1B2B;
     color: #00D9FF;
     text-decoration: none;
@@ -107,6 +107,59 @@ nav {
     border-color: #00D9FF;
     box-shadow:
         0 0 15px rgba(0, 217, 255, 0.25);
+}
+/*bouton interne*/
+.nav-links2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links2 li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links2 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 50px;
+    margin: 30px;
+    border: 2px solid #0066FF;
+    border-radius: 0em;
+    background-color: #0B1B2B;
+    color: #00D9FF;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow:
+        inset -2px -2px 3px rgba(0, 0, 0, 0.7),
+        inset 2px 2px 3px rgba(0, 217, 255, 0.1);
+    transition: 0.3s ease;
+}
+
+.nav-links2 a.active {
+    background-color: #0066FF;
+    color: #FFFFFF;
+    border-color: #00D9FF;
+    box-shadow:
+        0 0 15px rgba(0, 217, 255, 0.25);
+}
+.nav-links2 a:hover {
+    transition:0.7s all;
+    margin: 0;
+    font-size: 1.1em;
+    background-color: #0066FF;
+    color: #FFFFFF;
+    border-color: #00D9FF;
+    box-shadow:
+        0 8px 25px rgba(0, 102, 255, 0.45),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .menu-button {
