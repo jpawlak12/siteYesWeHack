@@ -328,3 +328,30 @@ footer {
     color: #61798C;
     font-size: 14px;
 }
+.zigzag-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.zigzag-card {
+    padding: 2em;
+    display: flex;
+    align-items: left;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.zigzag-card-date {
+    font-size: 4em;
+    margin: 0 2em;
+}
+
+.zigzag-card-desc {
+    margin: 2em 2em;
+}
+
+.zigzag-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
