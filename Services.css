@@ -355,3 +355,15 @@ footer {
 .zigzag-card:nth-child(even) {
     flex-direction: row-reverse;
 }
+#C1 {
+    scroll-margin-top: 120px;
+}
+#C2 {
+    scroll-margin-top: 120px;
+}
+#C3 {
+    scroll-margin-top: 120px;
+}
+#C4 {
+    scroll-margin-top: 120px;
+}
