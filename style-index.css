@@ -23,6 +23,7 @@ header {
     background-color: #0B1B2B;
     backdrop-filter: blur(10px);
     border-bottom: 2px solid #00D9FF;
+    z-index:1000;
 }
 
 #h1-menu{
