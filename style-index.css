@@ -183,7 +183,7 @@ nav {
 }
 
 /* box en dessous du texte */
-.box.reverse {
+.box-reverse {
     flex-direction: column-reverse;
 }
 
